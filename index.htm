@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>B. Lahari | Resume</title>
+
+    <!-- Inbuilt CSS -->
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+        background: #f4f6f9;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background: #2b7a78;
+        color: white;
+        text-align: center;
+        padding: 25px;
+      }
+      nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-weight: bold;
+      }
+      nav a:hover {
+        text-decoration: underline;
+      }
+      section {
+        background: white;
+        margin: 30px auto;
+        padding: 25px;
+        border-radius: 10px;
+        width: 80%;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      }
+      h2 {
+        color: #17252a;
+        border-bottom: 2px solid #3aafa9;
+        padding-bottom: 5px;
+      }
+      .skills span {
+        display: inline-block;
+        background: #def2f1;
+        color: #2b7a78;
+        padding: 5px 10px;
+        border-radius: 5px;
+        margin: 5px;
+        font-size: 14px;
+      }
+      footer {
+        text-align: center;
+        background: #17252a;
+        color: white;
+        padding: 10px;
+      }
+      button {
+        background: #3aafa9;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+      }
+      button:hover {
+        background: #2b7a78;
+      }
+    </style>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>B. Lahari</h1>
+      <p>
+        3rd Year B.Tech CSE | East Point College of Engineering & Technology
+      </p>
+      <nav>
+        <a href="index.htm">Resume</a> |
+        <a href="biodata.html">Bio-data</a>
+      </nav>
+    </header>
+
+    <section>
+      <h2>Career Objective</h2>
+      <p>
+        To obtain a challenging position in a reputable organization to expand
+        my learning, knowledge, and skills in web development and software
+        engineering.
+      </p>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <ul>
+        <li>
+          B.Tech (CSE), East Point College of Engineering & Technology,
+          Bengaluru – 2023 – Present
+        </li>
+        <li>PUC – Poornima PU College, Raichur – 2023</li>
+        <li>10th – St. Mary’s Convent High School, Raichur – 2021</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Technical Skills</h2>
+      <div class="skills">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>Python (Basic)</span>
+        <span>Java (Basic)</span>
+        <span>C Programming</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <p>
+        <b>Adaptive Street Lighting System for Hill Stations</b> – A system that
+        adjusts streetlight brightness based on surrounding light and motion
+        detection to conserve energy.
+      </p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>
+        Email: <a href="mailto:llahari150@gmail.com">llahari150@gmail.com</a>
+      </p>
+      <p>Phone: 9632527697</p>
+      <p>
+        LinkedIn:
+        <a href="http://linkedin.com/in/lahari191005" target="_blank"
+          >linkedin.com/in/lahari191005</a
+        >
+      </p>
+      <p>
+        GitHub:
+        <a href="https://github.com/Blahari1" target="_blank"
+          >github.com/Blahari1</a
+        >
+      </p>
+
+      <button id="alertBtn">Click for a Message</button>
+    </section>
+
+    <footer>
+      <p>© 2025 B. Lahari | All Rights Reserved</p>
+    </footer>
+
+    <!-- JavaScript / jQuery -->
+    <script>
+      $("#alertBtn").click(function () {
+        alert("Thank you for visiting my resume page!");
+      });
+    </script>
+  </body>
+</html>
